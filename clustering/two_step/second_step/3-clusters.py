@@ -9,17 +9,17 @@ df = pd.read_csv(csv_path)
 df['final_cluster'] = -1
 
 # Possible columns for clustering
-columns = [['density_pop', 'solar_pow', 'wind_power', 'res_area', 'solar_seas_ind', 'wind_std', 'offshore_wind', 'evi', 'temp'],
-    ['density_pop', 'solar_pow', 'wind_power', 'res_area', 'solar_seas_ind', 'wind_std', 'offshore_wind', 'evi', 'temp', 'hydro'],
-    ['density_pop', 'solar_pow', 'wind_power', 'res_area', 'solar_seas_ind', 'wind_std', 'offshore_wind', 'evi', 'temp', 'hydro', 'geothermal_potential']
+columns = [['solar_pow', 'wind_power', 'res_area', 'solar_seas_ind', 'wind_std', 'offshore_wind', 'evi'],
+    ['solar_pow', 'wind_power', 'res_area', 'solar_seas_ind', 'wind_std', 'offshore_wind', 'evi', 'hydro'],
+    ['solar_pow', 'wind_power', 'res_area', 'solar_seas_ind', 'wind_std', 'offshore_wind', 'evi', 'hydro', 'geothermal_potential']
 ]
 
 # KMeans hyperparameter for different cluster
 hyperparam = {
     'XS' : [3, 2],
-    'S' : [4, 1],
-    'M' : [2, 2],
-    'L' : [3, 2]
+    'S' : [2, 0],
+    'M' : [3, 0],
+    'L' : [3, 1]
 }
 
 # Iterate for different first cluster
