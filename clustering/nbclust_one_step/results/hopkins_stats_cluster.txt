@@ -1,0 +1,13 @@
+m value utilized: 201
+Mean Hopkins value ('cluster' library): 0.999969
+Mean Hopkins value ('clustertend' library): 0.139878
+
+Islands with hydro potential 762 , islands without hydro potential 1250
+Mean Hopkins value ('cluster' library): 0.999988
+Mean Hopkins value ('clustertend' library): 0.147058
+
+Islands with hydro potential 762 , islands without hydro potential 1250
+Islands with geothermal potential 288 , islands without geothermal potential 1724
+Mean Hopkins value ('cluster' library): 0.999999
+Mean Hopkins value ('clustertend' library): 0.135861
+

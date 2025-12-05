@@ -1,0 +1,10 @@
+.venv/
+
+*.pkl
+
+files/
+
+data/
+
+__pycache__/
+**/.DS_Store

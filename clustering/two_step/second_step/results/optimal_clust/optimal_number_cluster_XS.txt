@@ -1,0 +1,35 @@
+Columns group base :
+Among all indices:
+2 proposed  0  as the best number of clusters
+6 proposed  2  as the best number of clusters
+12 proposed  3  as the best number of clusters
+2 proposed  4  as the best number of clusters
+1 proposed  7  as the best number of clusters
+1 proposed  18  as the best number of clusters
+2 proposed  20  as the best number of clusters
+According to the majority rule, the best number of clusters is 3
+
+Columns group hydro :
+Among all indices:
+2 proposed  0  as the best number of clusters
+1 proposed  1  as the best number of clusters
+5 proposed  2  as the best number of clusters
+12 proposed  3  as the best number of clusters
+2 proposed  5  as the best number of clusters
+1 proposed  10  as the best number of clusters
+1 proposed  18  as the best number of clusters
+2 proposed  20  as the best number of clusters
+According to the majority rule, the best number of clusters is 3
+
+Columns group geothermal_potential :
+Among all indices:
+2 proposed  0  as the best number of clusters
+1 proposed  1  as the best number of clusters
+5 proposed  2  as the best number of clusters
+13 proposed  3  as the best number of clusters
+2 proposed  5  as the best number of clusters
+1 proposed  18  as the best number of clusters
+1 proposed  19  as the best number of clusters
+1 proposed  20  as the best number of clusters
+According to the majority rule, the best number of clusters is 3
+

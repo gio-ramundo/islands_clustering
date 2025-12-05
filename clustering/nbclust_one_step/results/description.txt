@@ -1,0 +1,21 @@
+Total islands: 2012
+Islands with hydro potential: 762
+Islands with geothermal potential: 288
+Islands with offshore wind potential: 899
+
+Islands in the cluster 0: 693
+Islands in the cluster with hydro potential: 693
+Islands in the cluster with geothermal potential: 101
+Islands in the cluster with offshore wind potential: 203
+
+Islands in the cluster 1: 1104
+Islands in the cluster with hydro potential: 0
+Islands in the cluster with geothermal potential: 153
+Islands in the cluster with offshore wind potential: 482
+
+Islands in the cluster 2: 215
+Islands in the cluster with hydro potential: 69
+Islands in the cluster with geothermal potential: 34
+Islands in the cluster with offshore wind potential: 214
+
+Dataset variance ratio explained by clusters: 0.21606954310587836

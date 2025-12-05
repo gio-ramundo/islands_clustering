@@ -1,0 +1,21 @@
+Islands in the cluster: 1214
+Islands with hydro potential: 347
+Islands with geothermal potential: 110
+Islands with offshore wind potential: 437
+
+Islands in the subcluster 0: 774
+Islands in the subcluster with hydro potential: 0
+Islands in the subcluster with geothermal potential: 79
+Islands in the subcluster with offshore wind potential: 281
+
+Islands in the subcluster 1: 339
+Islands in the subcluster with hydro potential: 339
+Islands in the subcluster with geothermal potential: 19
+Islands in the subcluster with offshore wind potential: 55
+
+Islands in the subcluster 2: 101
+Islands in the subcluster with hydro potential: 8
+Islands in the subcluster with geothermal potential: 12
+Islands in the subcluster with offshore wind potential: 101
+
+Cluster variance ratio explained by subclusters: 0.5966183826901936
