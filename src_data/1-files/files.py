@@ -98,6 +98,6 @@ for file_id, file_name in files.items():
 
 # Final check
 if len(files) == len(downloaded_files):
-    print('All files correctly downloaded.')
+    print('All files downloaded correctly.')
 else:
-    print('Not all files correctly downloaded. Run again the script.')
+    print('Not all files downloaded correctly. Run again the script.')

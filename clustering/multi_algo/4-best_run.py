@@ -162,6 +162,26 @@ def export(dataframe, method, name, columns):
             boxplot_path = os.path.join(boxplot_folder, f'{feature}_boxplot.png')
             plt.savefig(boxplot_path)
             plt.close()
+    # .xlsx file, every sheet is referred to a feature
+    output_xlsx = os.path.join(output_folder, f'islands_conusmption_class_cluster.xlsx')
+    with pd.ExcelWriter(output_xlsx, engine = 'xlsxwriter') as writer:
+        stats = []
+        cluster_labels = sorted(dataframe[method].unique())
+        for cluster_label in cluster_labels:
+            cluster_df= dataframe[dataframe[method] == cluster_label]
+            stats.append([
+                len(cluster_df),
+                len(cluster_df[cluster_df['consumption_label']=='XS']),
+                len(cluster_df[cluster_df['consumption_label']=='S']),
+                len(cluster_df[cluster_df['consumption_label']=='M']),
+                len(cluster_df[cluster_df['consumption_label']=='L'])
+                ])
+        stats_df = pd.DataFrame(
+            np.array(stats).T,
+            index = ['Total','XS','S', 'M', 'L'],
+            columns = [f'Cluster_{label}' for label in cluster_labels]
+        )
+        stats_df.to_excel(writer)
 
 # Function application to various methods
 for method in clustering_columns:
